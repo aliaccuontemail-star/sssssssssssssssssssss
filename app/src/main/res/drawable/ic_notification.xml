@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- PinBom brand vector. Generated from brand/pinbom-glyph.svg — keep the two in sync.
+     Flat mark for the status bar; the system masks it to a single colour. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <group
+        android:scaleX="0.37"
+        android:scaleY="0.37"
+        android:translateX="-7.61"
+        android:translateY="-8.35">
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:fillType="evenOdd"
+            android:pathData="M38,28 H55 A13,13 0 0 1 55,54 H58 A14,14 0 0 1 58,82 H38 Q34,82 34,78 V32 Q34,28 38,28 Z M46,36 H54 A5,5 0 0 1 54,46 H46 Z M46,59 H56 A6,6 0 0 1 56,71 H46 Z" />
+    </group>
+</vector>

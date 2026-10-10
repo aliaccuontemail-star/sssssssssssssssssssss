@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Debug builds only. A developer's server lives at an address that is different
+  on every desk (10.0.2.2 on an emulator, 192.168.x.x on a phone), and the app
+  asks for that address at runtime — so an allowlist is impossible here and
+  cleartext is permitted outright. Release builds use the scoped configuration
+  in app/src/main/res/xml/network_security_config.xml.
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>

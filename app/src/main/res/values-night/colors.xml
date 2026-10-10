@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Near-black rather than pure black, for the same reason as the light
+         value: a flash should be a soft edge, not a hard cut. -->
+    <color name="pinbom_window_background">#FF121214</color>
+    <color name="pinbom_splash_background">#FFE60023</color>
+    <color name="pinbom_launcher_background">#FFE60023</color>
+</resources>

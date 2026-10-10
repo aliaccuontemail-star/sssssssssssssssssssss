@@ -1,0 +1,41 @@
+<resources>
+    <!-- PinBom base theme.
+         - Flattened: no window decorations, no native action bar.
+         - The system bars are transparent; Compose draws edge-to-edge and the
+           icon colours are switched at runtime by PinBomTheme (the in-app dark
+           toggle is independent from the system setting). -->
+
+    <style name="Theme.PinBom.Base" parent="android:Theme.DeviceDefault.Light.NoActionBar">
+        <!-- Transparent window: Compose paints every pixel edge-to-edge, so a
+             native window colour would only ever show up as a flash of the
+             *wrong* theme (the in-app dark toggle is independent of the system
+             setting). The red splash window covers the cold start. -->
+        <!-- Opaque, but *neutral*: the window only shows for the frame or two
+             before Compose paints, and its colour follows the system theme while
+             the app's theme is the user's choice. Nothing but the value below
+             depends on the system night mode; the Compose root surface is the
+             source of truth. -->
+        <item name="android:windowBackground">@color/pinbom_window_background</item>
+        <item name="android:colorBackground">@color/pinbom_window_background</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:windowSharedElementsUseOverlay">false</item>
+    </style>
+
+    <style name="Theme.PinBom" parent="Theme.PinBom.Base" />
+
+    <!-- Adaptive splash (androidx.core:core-splashscreen).
+         The gradient background + the PinBom glyph are shown from the very first
+         frame; MainActivity animates the icon out with a short scale + fade. -->
+    <style name="Theme.PinBom.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/pinbom_splash_background</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_pinbom_foreground</item>
+        <item name="postSplashScreenTheme">@style/Theme.PinBom</item>
+    </style>
+</resources>

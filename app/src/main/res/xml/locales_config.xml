@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- PinBom ships two locales. Declaring them here is what puts them in the
+     per-app language picker (Settings → Apps → PinBom → Language) on Android 13+;
+     Persian is listed first because it is the app's default voice. -->
+<locale-config xmlns:android="http://schemas.android.com/apk/res/android">
+    <locale android:name="fa" />
+    <locale android:name="en" />
+</locale-config>

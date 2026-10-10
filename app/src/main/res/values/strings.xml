@@ -1,0 +1,228 @@
+<resources>
+    <string name="app_name">PinBom</string>
+
+    <!-- Compact count units (helper: faCount) -->
+    <string name="unit_thousand">K</string>
+    <string name="unit_million">M</string>
+    <string name="unit_billion">B</string>
+
+    <!-- Relative time (helper: faRelativeTime) -->
+    <string name="time_now">just now</string>
+    <string name="time_minutes_ago">%1$s min ago</string>
+    <string name="time_hours_ago">%1$s h ago</string>
+    <string name="time_yesterday">yesterday</string>
+    <string name="time_days_ago">%1$s d ago</string>
+    <string name="time_months_ago">%1$s mo ago</string>
+    <string name="time_years_ago">%1$s y ago</string>
+
+    <!-- Launcher shortcuts -->
+    <string name="action_shortcut_create">Create pin</string>
+    <string name="action_shortcut_search">Search</string>
+
+    <!-- Generic actions -->
+    <string name="action_save">Save</string>
+    <string name="action_saved">Saved</string>
+    <string name="action_share">Share</string>
+    <string name="action_retry">Retry</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_done">Done</string>
+    <string name="action_change">Change</string>
+    <string name="action_follow">Follow</string>
+    <string name="action_following">Following</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_copied">Link copied</string>
+    <string name="action_back">Back</string>
+    <string name="action_hide">Hide</string>
+
+    <!-- States -->
+    <string name="state_offline">No internet connection</string>
+    <string name="state_error_title">Something went wrong</string>
+    <string name="state_error_body">Check your connection and try again.</string>
+    <string name="cd_pin_image">Pin image: %1$s</string>
+    <string name="cd_avatar">Avatar of %1$s</string>
+    <string name="cd_pinbom_logo">PinBom</string>
+    <string name="cd_saved_badge">Saved</string>
+    <string name="cd_more_options">More options</string>
+    <string name="cd_search_field">Search PinBom</string>
+    <string name="cd_clear_query">Clear search</string>
+    <string name="cd_filter_chip">Filter: %1$s</string>
+    <string name="cd_unread">Unread</string>
+    <string name="cd_board_cover">Board cover</string>
+    <string name="cd_profile_cover">Profile cover</string>
+    <string name="cd_close">Close</string>
+    <string name="count_pins">%1$s pins</string>
+    <string name="state_empty_title">Nothing here yet</string>
+    <string name="state_empty_body">When there is something to show, it will appear right here.</string>
+
+    <!-- Navigation -->
+    <!-- Home & search -->
+    <string name="feed_for_you">For you</string>
+    <string name="feed_following">Following</string>
+    <string name="feed_trending">Trending</string>
+    <string name="search_placeholder">Search PinBom</string>
+    <string name="search_tab_pins">Pins</string>
+    <string name="search_tab_boards">Boards</string>
+    <string name="search_tab_users">People</string>
+    <string name="search_idle_title">What are you looking for?</string>
+    <string name="search_idle_body">Search for pins, boards or people.</string>
+    <string name="search_no_results_title">Nothing found</string>
+    <string name="search_no_results_body">Try a different phrase.</string>
+    <string name="search_recent_title">Recent searches</string>
+    <string name="cd_open_settings">Settings</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_search">Search</string>
+    <string name="nav_create">Create</string>
+    <string name="nav_notifications">Notifications</string>
+    <string name="nav_profile">Profile</string>
+
+    <!-- Pin detail -->
+    <string name="pin_link">https://pinbom.app/pin/%1$s</string>
+    <string name="pin_profile">Profile</string>
+    <string name="pin_comments">Comments</string>
+    <string name="pin_no_comments">No comments yet — be the first.</string>
+    <string name="pin_comment_hint">Add a comment</string>
+    <string name="pin_send">Post comment</string>
+    <string name="pin_related">More like this</string>
+    <string name="pin_save_to_board">Save to board</string>
+    <string name="pin_saved_to">Saved to “%1$s”</string>
+    <string name="pin_no_boards">No boards yet.</string>
+    <string name="pin_new_board">Create board</string>
+    <string name="pin_board_name">Board name</string>
+    <string name="cd_like">Like</string>
+    <string name="cd_copy_link">Copy link</string>
+
+    <!-- Profile -->
+    <string name="profile_tab_pins">Pins</string>
+    <string name="profile_tab_boards">Boards</string>
+    <string name="profile_tab_saved">Saved</string>
+    <string name="profile_stat_pins">Pins</string>
+    <string name="profile_stat_followers">Followers</string>
+    <string name="profile_stat_following">Following</string>
+    <string name="profile_settings">Settings</string>
+    <string name="profile_edit_profile">Edit profile</string>
+    <string name="profile_change_avatar">Change profile photo</string>
+    <string name="profile_change_cover">Change profile cover</string>
+    <string name="profile_media_saved">Profile image updated</string>
+    <string name="profile_media_failed">Could not update the profile image</string>
+
+    <!-- Boards -->
+    <string name="boards_title">My boards</string>
+    <string name="board_link">https://pinbom.app/board/%1$s</string>
+    <string name="board_private">Private</string>
+    <string name="board_description_hint">Description (optional)</string>
+    <string name="board_edit_title">Edit board</string>
+    <string name="board_delete_title">Delete board</string>
+    <string name="board_delete_body">The board is removed. The pins themselves stay.</string>
+    <string name="board_created">Board created</string>
+    <string name="board_updated">Board updated</string>
+    <string name="board_deleted">Board deleted</string>
+    <string name="pin_save_hint">Choose a board</string>
+
+    <!-- Create pin -->
+    <string name="create_title">Create pin</string>
+    <string name="create_upload">Upload</string>
+    <string name="create_pick_image">Choose image</string>
+    <string name="create_remove_image">Remove image</string>
+    <string name="create_field_title">Title</string>
+    <string name="create_field_description">Description</string>
+    <string name="create_field_tags">Tags (comma separated)</string>
+    <string name="create_choose_board">Choose board</string>
+    <string name="create_queued">Upload queued in the background</string>
+
+    <!-- Notifications -->
+    <string name="notifications_title">Notifications</string>
+    <string name="notifications_empty_title">Nothing new yet</string>
+    <string name="notifications_empty_body">Saves, likes and follows land right here.</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_profile_section">Profile</string>
+    <string name="settings_display_name">Display name</string>
+    <string name="settings_bio">Bio</string>
+    <string name="settings_save_profile">Save profile</string>
+    <string name="settings_appearance">Appearance</string>
+    <string name="settings_dark_mode">Dark theme</string>
+    <string name="settings_server">Server</string>
+    <string name="settings_account">Account</string>
+    <string name="settings_logout">Log out</string>
+    <string name="settings_delete_account">Delete account</string>
+    <string name="settings_delete_title">Delete account?</string>
+    <string name="settings_delete_body">All of your content is removed. This cannot be undone.</string>
+
+    <!-- Auth -->
+    <string name="auth_welcome">Welcome</string>
+    <string name="auth_subtitle">Sign in or create an account to start pinning.</string>
+    <string name="auth_username">Username</string>
+    <string name="auth_email">Email</string>
+    <string name="auth_identifier">Username or email</string>
+    <string name="auth_password">Password</string>
+    <string name="auth_login">Log in</string>
+    <string name="auth_register">Create account</string>
+    <string name="auth_no_account_line">Don\'t have an account?</string>
+    <string name="auth_have_account_line">Already have an account?</string>
+    <string name="auth_error_login">Login failed. Check your username and password.</string>
+    <string name="auth_error_register">Couldn\'t create the account. Try another username or email.</string>
+    <string name="auth_show_password">Show password</string>
+    <string name="auth_hide_password">Hide password</string>
+
+    <!-- Server setup -->
+    <string name="server_title">Connect to server</string>
+    <string name="server_body">Enter your PinBom server address, for example http://192.168.1.10:8080</string>
+    <string name="server_placeholder">http://192.168.1.10:8080</string>
+    <string name="server_connect">Connect</string>
+    <string name="server_invalid">The address must start with http:// or https://</string>
+    <string name="server_unreachable">No answer from %1$s</string>
+    <string name="server_loopback_hint">On a phone, 127.0.0.1 means the phone itself — enter your computer\'s address, for example http://192.168.1.10:8080. On an emulator, use http://10.0.2.2:8080.</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_saved">Saved</string>
+    <string name="settings_language_changed">Language changed</string>
+    <string name="language_short_fa">فا</string>
+    <string name="language_short_en">EN</string>
+
+    <!-- Upload progress (in-app card + foreground notification) -->
+    <string name="upload_channel_name">Uploads</string>
+    <string name="upload_channel_description">Shows how much of a pin has been uploaded.</string>
+    <string name="upload_notification_title">Uploading pin</string>
+    <string name="upload_notification_percent">%1$s · %2$s%%</string>
+    <string name="upload_notification_done">Pin uploaded</string>
+    <string name="upload_stage_preparing">Preparing…</string>
+    <string name="upload_stage_uploading">Uploading…</string>
+    <string name="upload_stage_finishing">Finishing…</string>
+    <string name="upload_stage_done">Done</string>
+    <string name="upload_stage_failed">Upload failed</string>
+    <string name="upload_stage_cancelled">Upload cancelled</string>
+    <string name="upload_card_percent">%1$s%%</string>
+    <string name="upload_card_announce">%1$s · %2$s%%</string>
+    <string name="upload_size_mb">%1$s / %2$s MB</string>
+    <string name="upload_size_kb">%1$s / %2$s KB</string>
+    <string name="upload_card_cancel">Cancel upload</string>
+    <string name="upload_card_retry">Retry</string>
+    <string name="upload_card_dismiss">Dismiss</string>
+    <string name="upload_error_unreadable">This image could not be read. Pick another one.</string>
+    <string name="upload_error_unauthorized">Your session has ended. Sign in again.</string>
+    <string name="upload_error_no_server">No server is configured. Set one up first.</string>
+
+    <!-- Navigation bar (the floating pill, its five indicator styles) -->
+    <string name="settings_nav_bar">Navigation bar</string>
+    <string name="nav_style_notch">Notch</string>
+    <string name="nav_style_glow">Glow</string>
+    <string name="nav_style_tile">Tile</string>
+    <string name="nav_style_label">Label</string>
+    <string name="nav_style_underline">Underline</string>
+    <string name="auth_username_hint">3–30 characters: letters, numbers, dots, dashes or underscores.</string>
+    <string name="auth_password_hint">Password must contain at least 8 characters.</string>
+    <string name="settings_button_color">Button color</string>
+    <string name="setup_title">Make PinBom yours</string>
+    <string name="setup_subtitle">A few quick choices. You can change them any time in Settings.</string>
+    <string name="setup_dark_mode">Dark mode</string>
+    <string name="setup_dark_mode_desc">A calm, darker look for evenings</string>
+    <string name="setup_button_color">Primary button color</string>
+    <string name="setup_language">App language</string>
+    <string name="setup_finish">Let’s go</string>
+    <string name="setup_footer">Your preferences are saved on this device.</string>
+    <string name="setup_step_one">STEP 1 OF 2 · THEME</string>
+    <string name="setup_step_two">STEP 2 OF 2 · PERSONALIZE</string>
+    <string name="setup_next">Continue</string>
+    <string name="setup_back">Back</string>
+</resources>

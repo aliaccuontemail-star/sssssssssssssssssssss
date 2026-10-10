@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- PinBom brand vector. Generated from brand/pinbom-glyph.svg — keep the two in sync.
+     Glyph: bold geometric “B”, two proper counters (evenOdd), box x34..72 · y28..82
+     of the 108 viewport. No dots, no spark, no floating decorations. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Rounded-square container: corner radius 26 ≈ 24% of the width. -->
+    <path android:pathData="M26,0h56a26,26 0 0 1 26,26v56a26,26 0 0 1 -26,26H26A26,26 0 0 1 0,82V26A26,26 0 0 1 26,0z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="108"
+                android:endY="108"
+                android:startX="0"
+                android:startY="0"
+                android:type="linear">
+                <item android:color="#FFFF5A6A" android:offset="0" />
+                <item android:color="#FFE60023" android:offset="0.52" />
+                <item android:color="#FFB3001B" android:offset="1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Very subtle top-start white highlight (12%): the fill reads as lit, not flat. -->
+    <path android:pathData="M26,0h56a26,26 0 0 1 26,26v56a26,26 0 0 1 -26,26H26A26,26 0 0 1 0,82V26A26,26 0 0 1 26,0z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="26"
+                android:centerY="22"
+                android:gradientRadius="86"
+                android:type="radial">
+                <item android:color="#1FFFFFFF" android:offset="0" />
+                <item android:color="#00FFFFFF" android:offset="1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Soft 10% depth shadow, 2 units lower than the glyph. -->
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:scaleX="1.2"
+        android:scaleY="1.2"
+        android:translateY="2">
+        <path
+            android:fillColor="#1A000000"
+            android:fillType="evenOdd"
+            android:pathData="M38,28 H55 A13,13 0 0 1 55,54 H58 A14,14 0 0 1 58,82 H38 Q34,82 34,78 V32 Q34,28 38,28 Z M46,36 H54 A5,5 0 0 1 54,46 H46 Z M46,59 H56 A6,6 0 0 1 56,71 H46 Z" />
+    </group>
+
+    <!-- White glyph. -->
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:scaleX="1.2"
+        android:scaleY="1.2">
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:fillType="evenOdd"
+            android:pathData="M38,28 H55 A13,13 0 0 1 55,54 H58 A14,14 0 0 1 58,82 H38 Q34,82 34,78 V32 Q34,28 38,28 Z M46,36 H54 A5,5 0 0 1 54,46 H46 Z M46,59 H56 A6,6 0 0 1 56,71 H46 Z" />
+    </group>
+</vector>

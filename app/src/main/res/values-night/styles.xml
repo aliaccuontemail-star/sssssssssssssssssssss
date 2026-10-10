@@ -1,0 +1,29 @@
+<resources>
+    <!-- Same structure as the light theme: only the colours flip. -->
+    <style name="Theme.PinBom.Base" parent="android:Theme.DeviceDefault.NoActionBar">
+        <!-- Opaque, but *neutral*: the window only shows for the frame or two
+             before Compose paints, and its colour follows the system theme while
+             the app's theme is the user's choice. Nothing but the value below
+             depends on the system night mode; the Compose root surface is the
+             source of truth. -->
+        <item name="android:windowBackground">@color/pinbom_window_background</item>
+        <item name="android:colorBackground">@color/pinbom_window_background</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:windowSharedElementsUseOverlay">false</item>
+    </style>
+
+    <style name="Theme.PinBom" parent="Theme.PinBom.Base" />
+
+    <style name="Theme.PinBom.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/pinbom_splash_background</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_pinbom_foreground</item>
+        <item name="postSplashScreenTheme">@style/Theme.PinBom</item>
+    </style>
+</resources>

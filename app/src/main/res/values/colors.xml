@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The native window colour before the first Compose frame.
+         Deliberately near-white rather than pure white: the window is only
+         visible for a frame or two, and a hard #FFFFFF flash reads as a glitch.
+         It follows the *system* night mode (values-night) because that is all a
+         resource can know; the app's own theme is the user's choice, and the
+         Compose root surface (PinBomRoot) is the real source of truth. -->
+    <color name="pinbom_window_background">#FFF7F7F8</color>
+    <!-- Splash window background = deepest brand red behind the glyph. -->
+    <color name="pinbom_splash_background">#FFE60023</color>
+    <color name="pinbom_launcher_background">#FFE60023</color>
+</resources>

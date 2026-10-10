@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 108 108"><defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+   <stop offset="0" stop-color="#FF5A6A"/><stop offset="0.52" stop-color="#E60023"/><stop offset="1" stop-color="#B3001B"/></linearGradient>
+ <radialGradient id="hi" cx="26" cy="22" r="86" gradientUnits="userSpaceOnUse">
+   <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.12"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></radialGradient>
+ <linearGradient id="sh" x1="54" y1="46" x2="54" y2="108" gradientUnits="userSpaceOnUse">
+   <stop offset="0" stop-color="#000000" stop-opacity="0"/><stop offset="1" stop-color="#000000" stop-opacity="0.12"/></linearGradient>
+</defs><rect width="108" height="108" rx="26" fill="url(#bg)"/><rect width="108" height="108" rx="26" fill="url(#hi)"/><rect width="108" height="108" rx="26" fill="url(#sh)"/><g><path d="M38,28 H55 A13,13 0 0 1 55,54 H58 A14,14 0 0 1 58,82 H38 Q34,82 34,78 V32 Q34,28 38,28 Z M46,36 H54 A5,5 0 0 1 54,46 H46 Z M46,59 H56 A6,6 0 0 1 56,71 H46 Z" fill="#000000" fill-opacity="0.10" fill-rule="evenodd" transform="translate(-9.600,-10.000) scale(1.2000) translate(-53,-55)"/><path d="M38,28 H55 A13,13 0 0 1 55,54 H58 A14,14 0 0 1 58,82 H38 Q34,82 34,78 V32 Q34,28 38,28 Z M46,36 H54 A5,5 0 0 1 54,46 H46 Z M46,59 H56 A6,6 0 0 1 56,71 H46 Z" fill="#FFFFFF" fill-rule="evenodd" transform="translate(-9.600,-12.000) scale(1.2000) translate(-53,-55)"/></g></svg>

@@ -1,0 +1,228 @@
+<resources>
+    <string name="app_name">پینبوم</string>
+
+    <!-- واحدهای شمارش فشرده (faCount) -->
+    <string name="unit_thousand">هزار</string>
+    <string name="unit_million">میلیون</string>
+    <string name="unit_billion">میلیارد</string>
+
+    <!-- زمان نسبی (faRelativeTime) -->
+    <string name="time_now">همین حالا</string>
+    <string name="time_minutes_ago">%1$s دقیقه پیش</string>
+    <string name="time_hours_ago">%1$s ساعت پیش</string>
+    <string name="time_yesterday">دیروز</string>
+    <string name="time_days_ago">%1$s روز پیش</string>
+    <string name="time_months_ago">%1$s ماه پیش</string>
+    <string name="time_years_ago">%1$s سال پیش</string>
+
+    <!-- میان‌برهای لانچر -->
+    <string name="action_shortcut_create">ساخت پین</string>
+    <string name="action_shortcut_search">جستجو</string>
+
+    <!-- کنش‌های عمومی -->
+    <string name="action_save">ذخیره</string>
+    <string name="action_saved">ذخیره شده</string>
+    <string name="action_share">اشتراک‌گذاری</string>
+    <string name="action_retry">تلاش مجدد</string>
+    <string name="action_cancel">انصراف</string>
+    <string name="action_done">تمام</string>
+    <string name="action_change">تغییر</string>
+    <string name="action_follow">دنبال کردن</string>
+    <string name="action_following">دنبال می‌کنید</string>
+    <string name="action_edit">ویرایش</string>
+    <string name="action_delete">حذف</string>
+    <string name="action_copied">لینک کپی شد</string>
+    <string name="action_back">بازگشت</string>
+    <string name="action_hide">پنهان کردن</string>
+
+    <!-- حالت‌ها -->
+    <string name="state_offline">اتصال اینترنت برقرار نیست</string>
+    <string name="state_error_title">مشکلی پیش آمد</string>
+    <string name="state_error_body">اتصال خود را بررسی کنید و دوباره تلاش کنید.</string>
+    <string name="cd_pin_image">تصویر پین: %1$s</string>
+    <string name="cd_avatar">تصویر پروفایل %1$s</string>
+    <string name="cd_pinbom_logo">پینبوم</string>
+    <string name="cd_saved_badge">ذخیره‌شده</string>
+    <string name="cd_more_options">گزینه‌های بیشتر</string>
+    <string name="cd_search_field">جستجو در پینبوم</string>
+    <string name="cd_clear_query">پاک کردن متن جستجو</string>
+    <string name="cd_filter_chip">فیلتر: %1$s</string>
+    <string name="cd_unread">خوانده‌نشده</string>
+    <string name="cd_board_cover">کاور بورد</string>
+    <string name="cd_profile_cover">تصویر کاور پروفایل</string>
+    <string name="cd_close">بستن</string>
+    <string name="count_pins">%1$s پین</string>
+    <string name="state_empty_title">هنوز چیزی اینجا نیست</string>
+    <string name="state_empty_body">هر وقت چیزی برای نمایش باشد، همین‌جا ظاهر می‌شود.</string>
+
+    <!-- ناوبری -->
+    <!-- خانه و جستجو -->
+    <string name="feed_for_you">برای تو</string>
+    <string name="feed_following">دنبال‌شده‌ها</string>
+    <string name="feed_trending">ترند</string>
+    <string name="search_placeholder">جستجو در پینبوم</string>
+    <string name="search_tab_pins">پین‌ها</string>
+    <string name="search_tab_boards">بوردها</string>
+    <string name="search_tab_users">کاربران</string>
+    <string name="search_idle_title">دنبال چه چیزی هستید؟</string>
+    <string name="search_idle_body">پین، بورد یا آدم‌ها را جستجو کنید.</string>
+    <string name="search_no_results_title">چیزی پیدا نشد</string>
+    <string name="search_no_results_body">عبارت دیگری را امتحان کنید.</string>
+    <string name="search_recent_title">جستجوهای اخیر</string>
+    <string name="cd_open_settings">تنظیمات</string>
+    <string name="nav_home">خانه</string>
+    <string name="nav_search">جستجو</string>
+    <string name="nav_create">ساخت</string>
+    <string name="nav_notifications">اعلان‌ها</string>
+    <string name="nav_profile">پروفایل</string>
+
+    <!-- صفحهٔ پین -->
+    <string name="pin_link">https://pinbom.app/pin/%1$s</string>
+    <string name="pin_profile">پروفایل</string>
+    <string name="pin_comments">دیدگاه‌ها</string>
+    <string name="pin_no_comments">هنوز دیدگاهی ثبت نشده؛ اولین نفر باشید.</string>
+    <string name="pin_comment_hint">دیدگاه شما</string>
+    <string name="pin_send">ارسال دیدگاه</string>
+    <string name="pin_related">پین‌های مشابه</string>
+    <string name="pin_save_to_board">ذخیره در بورد</string>
+    <string name="pin_saved_to">ذخیره شد در «%1$s»</string>
+    <string name="pin_no_boards">هنوز بوردی ساخته نشده است.</string>
+    <string name="pin_new_board">ساخت بورد جدید</string>
+    <string name="pin_board_name">نام بورد</string>
+    <string name="cd_like">پسندیدن</string>
+    <string name="cd_copy_link">کپی لینک</string>
+
+    <!-- پروفایل -->
+    <string name="profile_tab_pins">پین‌ها</string>
+    <string name="profile_tab_boards">بوردها</string>
+    <string name="profile_tab_saved">ذخیره‌شده</string>
+    <string name="profile_stat_pins">پین</string>
+    <string name="profile_stat_followers">دنبال‌کننده</string>
+    <string name="profile_stat_following">دنبال‌شده</string>
+    <string name="profile_settings">تنظیمات</string>
+    <string name="profile_edit_profile">ویرایش نمایه</string>
+    <string name="profile_change_avatar">تغییر عکس پروفایل</string>
+    <string name="profile_change_cover">تغییر کاور پروفایل</string>
+    <string name="profile_media_saved">تصویر نمایه به‌روزرسانی شد</string>
+    <string name="profile_media_failed">به‌روزرسانی تصویر نمایه ناموفق بود</string>
+
+    <!-- بوردها -->
+    <string name="boards_title">بوردهای من</string>
+    <string name="board_link">https://pinbom.app/board/%1$s</string>
+    <string name="board_private">خصوصی</string>
+    <string name="board_description_hint">توضیح (اختیاری)</string>
+    <string name="board_edit_title">ویرایش بورد</string>
+    <string name="board_delete_title">حذف بورد</string>
+    <string name="board_delete_body">این بورد حذف می‌شود؛ خود پین‌ها پاک نمی‌شوند.</string>
+    <string name="board_created">بورد ساخته شد</string>
+    <string name="board_updated">بورد ویرایش شد</string>
+    <string name="board_deleted">بورد حذف شد</string>
+    <string name="pin_save_hint">یک بورد انتخاب کنید</string>
+
+    <!-- ساخت پین -->
+    <string name="create_title">ساخت پین</string>
+    <string name="create_upload">آپلود</string>
+    <string name="create_pick_image">انتخاب تصویر</string>
+    <string name="create_remove_image">حذف تصویر</string>
+    <string name="create_field_title">عنوان</string>
+    <string name="create_field_description">توضیح</string>
+    <string name="create_field_tags">تگ‌ها (با کاما جدا کنید)</string>
+    <string name="create_choose_board">انتخاب بورد</string>
+    <string name="create_queued">آپلود در پس‌زمینه صف شد</string>
+
+    <!-- اعلان‌ها -->
+    <string name="notifications_title">اعلان‌ها</string>
+    <string name="notifications_empty_title">اعلان تازه‌ای نیست</string>
+    <string name="notifications_empty_body">ذخیره‌شدن پین‌ها، پسندیدن‌ها و دنبال‌کردن‌ها این‌جا می‌آیند.</string>
+
+    <!-- تنظیمات -->
+    <string name="settings_title">تنظیمات</string>
+    <string name="settings_profile_section">پروفایل</string>
+    <string name="settings_display_name">نام نمایشی</string>
+    <string name="settings_bio">بیو</string>
+    <string name="settings_save_profile">ذخیرهٔ پروفایل</string>
+    <string name="settings_appearance">نمایش</string>
+    <string name="settings_dark_mode">تم تاریک</string>
+    <string name="settings_server">سرور</string>
+    <string name="settings_account">حساب</string>
+    <string name="settings_logout">خروج از حساب</string>
+    <string name="settings_delete_account">حذف حساب</string>
+    <string name="settings_delete_title">حذف حساب؟</string>
+    <string name="settings_delete_body">تمام محتوای حساب شما حذف می‌شود و این عمل قابل بازگشت نیست.</string>
+
+    <!-- ورود و ثبت‌نام -->
+    <string name="auth_welcome">خوش آمدید</string>
+    <string name="auth_subtitle">برای شروع پین کردن وارد شوید یا حساب بسازید.</string>
+    <string name="auth_username">نام کاربری</string>
+    <string name="auth_email">ایمیل</string>
+    <string name="auth_identifier">نام کاربری یا ایمیل</string>
+    <string name="auth_password">رمز عبور</string>
+    <string name="auth_login">ورود</string>
+    <string name="auth_register">ساخت حساب</string>
+    <string name="auth_no_account_line">حساب ندارید؟</string>
+    <string name="auth_have_account_line">قبلاً حساب دارید؟</string>
+    <string name="auth_error_login">ورود ناموفق بود. نام کاربری و رمز عبور را بررسی کنید.</string>
+    <string name="auth_error_register">ساخت حساب انجام نشد. نام کاربری یا ایمیل دیگری امتحان کنید.</string>
+    <string name="auth_show_password">نمایش رمز</string>
+    <string name="auth_hide_password">پنهان‌کردن رمز</string>
+
+    <!-- اتصال به سرور -->
+    <string name="server_title">اتصال به سرور</string>
+    <string name="server_body">آدرس سرور پینبوم را وارد کنید؛ مثلاً http://192.168.1.10:8080</string>
+    <string name="server_placeholder">http://192.168.1.10:8080</string>
+    <string name="server_connect">اتصال</string>
+    <string name="server_invalid">آدرس باید با http:// یا https:// شروع شود.</string>
+    <string name="server_unreachable">پاسخی از %1$s نیامد</string>
+    <string name="server_loopback_hint">روی گوشی، 127.0.0.1 یعنی خودِ گوشی؛ آدرس کامپیوتر را وارد کنید، مثلاً http://192.168.1.10:8080. روی شبیه‌ساز از http://10.0.2.2:8080 استفاده کنید.</string>
+    <string name="settings_language">زبان</string>
+    <string name="settings_saved">ذخیره شد</string>
+    <string name="settings_language_changed">زبان تغییر کرد</string>
+    <string name="language_short_fa">فا</string>
+    <string name="language_short_en">EN</string>
+
+    <!-- پیشرفت آپلود (کارت درون‌برنامه‌ای و اعلان پیش‌زمینه) -->
+    <string name="upload_channel_name">آپلودها</string>
+    <string name="upload_channel_description">میزان آپلود شدن پین را نشان می‌دهد.</string>
+    <string name="upload_notification_title">آپلود پین</string>
+    <string name="upload_notification_percent">%1$s · %2$s٪</string>
+    <string name="upload_notification_done">پین آپلود شد</string>
+    <string name="upload_stage_preparing">آماده‌سازی…</string>
+    <string name="upload_stage_uploading">در حال آپلود…</string>
+    <string name="upload_stage_finishing">در حال نهایی‌سازی…</string>
+    <string name="upload_stage_done">انجام شد</string>
+    <string name="upload_stage_failed">آپلود ناموفق بود</string>
+    <string name="upload_stage_cancelled">آپلود لغو شد</string>
+    <string name="upload_card_percent">%1$s٪</string>
+    <string name="upload_card_announce">%1$s · %2$s٪</string>
+    <string name="upload_size_mb">%1$s از %2$s مگابایت</string>
+    <string name="upload_size_kb">%1$s از %2$s کیلوبایت</string>
+    <string name="upload_card_cancel">لغو آپلود</string>
+    <string name="upload_card_retry">تلاش دوباره</string>
+    <string name="upload_card_dismiss">بستن</string>
+    <string name="upload_error_unreadable">این تصویر خوانده نشد؛ تصویر دیگری انتخاب کنید.</string>
+    <string name="upload_error_unauthorized">نشست شما پایان یافته است. دوباره وارد شوید.</string>
+    <string name="upload_error_no_server">سروری تنظیم نشده است؛ نخست آن را تنظیم کنید.</string>
+
+    <!-- نوار ناوبری (قرص شناور و پنج سبک نشانگر آن) -->
+    <string name="settings_nav_bar">نوار ناوبری</string>
+    <string name="nav_style_notch">فرورفتگی</string>
+    <string name="nav_style_glow">درخشش</string>
+    <string name="nav_style_tile">کاشی</string>
+    <string name="nav_style_label">برچسب</string>
+    <string name="nav_style_underline">زیرخط</string>
+    <string name="auth_username_hint">۳ تا ۳۰ نویسه؛ حروف، عدد، نقطه، خط تیره یا زیرخط.</string>
+    <string name="auth_password_hint">رمز عبور باید حداقل ۸ نویسه داشته باشد.</string>
+    <string name="settings_button_color">رنگ دکمه‌ها</string>
+    <string name="setup_title">پین‌بوم را برای خودت تنظیم کن</string>
+    <string name="setup_subtitle">چند انتخاب ساده؛ هر زمان خواستی از تنظیمات تغییرشان بده.</string>
+    <string name="setup_dark_mode">حالت تاریک</string>
+    <string name="setup_dark_mode_desc">ظاهر تیره و آرام برای شب‌ها</string>
+    <string name="setup_button_color">رنگ اصلی دکمه‌ها</string>
+    <string name="setup_language">زبان برنامه</string>
+    <string name="setup_finish">بزن بریم</string>
+    <string name="setup_footer">تنظیماتت روی همین دستگاه ذخیره می‌شوند.</string>
+    <string name="setup_step_one">مرحله ۱ از ۲ · تم</string>
+    <string name="setup_step_two">مرحله ۲ از ۲ · شخصی‌سازی</string>
+    <string name="setup_next">ادامه</string>
+    <string name="setup_back">قبلی</string>
+</resources>

@@ -1,0 +1,32 @@
+package ir.pinbom.app.data.remote
+
+import kotlinx.serialization.SerialName
+import kotlinx.serialization.Serializable
+
+@Serializable data class TokenPair(@SerialName("access_token") val accessToken:String,@SerialName("refresh_token") val refreshToken:String,@SerialName("expires_in") val expiresIn:Int)
+@Serializable data class LoginRequest(val identifier:String,val password:String)
+@Serializable data class RegisterRequest(val username:String,val email:String?=null,val phone:String?=null,val password:String,val display_name:String?=null)
+@Serializable data class OtpRequest(val identifier:String)
+@Serializable data class OtpResponse(val ok:Boolean=true,val mode:String="",val code:String?=null,val expires_in:Int=300)
+@Serializable data class OtpVerifyRequest(val identifier:String,val code:String,val username:String?=null,val password:String?=null)
+@Serializable data class UserProfile(val id:Long,val username:String,val display_name:String,val bio:String="",val avatar_url:String="",val cover_url:String="",val followers:Int=0,val following:Int=0,val pins:Int=0,val following_me:Boolean=false,val me:Boolean=false)
+@Serializable data class Author(val username:String,val display_name:String)
+@Serializable data class Pin(val id:Long,val title:String,val description:String="",val source_url:String="",val width:Int,val height:Int,val created_at:String,val image_url:String,val author:Author?=null,val likes:Int=0,val saves:Int=0,val comments:Int=0,val liked:Boolean=false,val saved:Boolean=false)
+@Serializable data class FeedPage(val items:List<Pin> = emptyList(),val next_cursor:String="")
+@Serializable data class CreateBoard(val title:String,val description:String="",@SerialName("private") val private_board:Boolean=false)
+@Serializable data class Board(val id:Long,val user_id:Long=0,val title:String,val description:String="",val cover_url:String="",@SerialName("private") val private_board:Boolean=false,val created_at:String="")
+@Serializable data class BoardPage(val items:List<Board> = emptyList())
+@Serializable data class BoardDetail(val id:Long,val user_id:Long=0,val title:String,val description:String="",val cover_url:String="",@SerialName("private") val private_board:Boolean=false,val created_at:String="",val pins:List<Pin> = emptyList())
+@Serializable data class SaveRequest(val board_id:Long?=null)
+@Serializable data class CommentRequest(val body:String)
+@Serializable data class Comment(val id:Long,val body:String,val created_at:String,val user:Author)
+@Serializable data class CommentPage(val items:List<Comment> = emptyList())
+@Serializable data class Notification(val id:Long,val type:String,val actor_id:Long=0,val pin_id:Long=0,val body:String,val read:Boolean,val created_at:String,val actor:Author?=null)
+@Serializable data class NotificationPage(val items:List<Notification> = emptyList())
+@Serializable data class SearchPage(val items:List<Pin> = emptyList(),val next_cursor:String="")
+@Serializable data class SearchUser(val id:Long,val username:String,val display_name:String,val bio:String="",val avatar_url:String="")
+@Serializable data class SearchBoard(val id:Long,val title:String,val description:String="",val cover_url:String="",@SerialName("private") val private_board:Boolean=false)
+@Serializable data class UserSearchPage(val items:List<SearchUser> = emptyList(),val next_cursor:String="")
+@Serializable data class BoardSearchPage(val items:List<SearchBoard> = emptyList(),val next_cursor:String="")
+@Serializable data class CreatePinResponse(val id:Long,val title:String="",val description:String="",val width:Int=0,val height:Int=0,val image_url:String="")
+@Serializable data class SimpleResult(val ok:Boolean=true,val following:Boolean?=null,val liked:Boolean?=null,val saved:Boolean?=null)

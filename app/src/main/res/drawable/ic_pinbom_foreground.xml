@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- PinBom brand vector. Generated from brand/pinbom-glyph.svg — keep the two in sync.
+     Adaptive-icon foreground: the white “B” inside the 66dp safe zone.
+     Glyph box x34..72 · y28..82 of the 108 viewport, two counters (evenOdd). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Soft 10% depth shadow, 2 units lower than the glyph. -->
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:scaleX="0.9"
+        android:scaleY="0.9"
+        android:translateY="2">
+        <path
+            android:fillColor="#1A000000"
+            android:fillType="evenOdd"
+            android:pathData="M38,28 H55 A13,13 0 0 1 55,54 H58 A14,14 0 0 1 58,82 H38 Q34,82 34,78 V32 Q34,28 38,28 Z M46,36 H54 A5,5 0 0 1 54,46 H46 Z M46,59 H56 A6,6 0 0 1 56,71 H46 Z" />
+    </group>
+
+    <!-- White glyph: 34x43 of the central 72dp viewport, optically centred. -->
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:scaleX="0.9"
+        android:scaleY="0.9">
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:fillType="evenOdd"
+            android:pathData="M38,28 H55 A13,13 0 0 1 55,54 H58 A14,14 0 0 1 58,82 H38 Q34,82 34,78 V32 Q34,28 38,28 Z M46,36 H54 A5,5 0 0 1 54,46 H46 Z M46,59 H56 A6,6 0 0 1 56,71 H46 Z" />
+    </group>
+</vector>

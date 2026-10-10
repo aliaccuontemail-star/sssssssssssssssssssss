@@ -1,0 +1,33 @@
+# PinBom · baseline profile
+#
+# This is a hand-written seed, not a measured profile: it tells ART to compile
+# the app's own code and the parts of Compose that every screen touches ahead of
+# time, so the first launch of each screen is not interpreted bytecode.
+#
+# How to regenerate it from a real run (produces a measured profile instead of a
+# guessed one, needs a device or emulator):
+#
+#   1. add the plugin to the root build:
+#        id("androidx.baselineprofile") version "1.4.0" apply false
+#      and to app/build.gradle.kts:
+#        id("androidx.baselineprofile")
+#      plus a new `:baselineprofile` test module using the Macrobenchmark library.
+#   2. write the journeys (cold start, open home, open a pin, switch tabs) as
+#      `BaselineProfileRule.collectBaselineProfile { ... }` benchmark rules.
+#   3. run:  ./gradlew :app:generateBaselineProfile
+#   4. copy app/build/outputs/baselineProfiles/baseline-prof.txt over this file.
+#
+# Until then this seed covers what a launch and a browse actually touch.
+
+# The app itself: startup, then everything the first screens reach.
+HSPLir/pinbom/app/**->**
+
+# Compose: the runtime is on every frame of every screen, and the platform layer
+# is what the first composition waits for.
+HSPLandroidx/compose/runtime/**->**
+HSPLandroidx/compose/ui/platform/**->**
+
+# The screens the app opens into.
+Landroidx/compose/material3/ScaffoldKt;
+Landroidx/navigation/compose/NavHostKt;
+Lcoil3/compose/AsyncImageKt;
